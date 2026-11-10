@@ -1,0 +1,187 @@
+{
+  "generator": "Pebble",
+  "version": 5,
+  "settings": {
+    "siteName": "Hello Word",
+    "theme": {
+      "primaryColor": "#b85c38",
+      "secondaryColor": "#6b8b4f",
+      "fontFamily": "classic",
+      "borderRadius": 14,
+      "blockSpacing": 16
+    },
+    "typography": {
+      "styles": {
+        "title": {
+          "name": "Main Heading",
+          "font": "",
+          "size": 48,
+          "lineHeight": 1.15,
+          "weight": 700
+        },
+        "heading": {
+          "name": "Heading",
+          "font": "",
+          "size": 36,
+          "lineHeight": 1.2,
+          "weight": 600
+        },
+        "subheading": {
+          "name": "Subheading",
+          "font": "",
+          "size": 24,
+          "lineHeight": 1.3,
+          "weight": 600
+        },
+        "paragraph": {
+          "name": "Paragraph",
+          "font": "",
+          "size": 18,
+          "lineHeight": 1.65,
+          "weight": 400
+        },
+        "small": {
+          "name": "Small text",
+          "font": "",
+          "size": 14,
+          "lineHeight": 1.5,
+          "weight": 400
+        }
+      }
+    },
+    "branding": {
+      "logo": "",
+      "logoHeight": 44,
+      "logoMode": "logo-name",
+      "favicon": ""
+    },
+    "hero": {
+      "enabled": false,
+      "src": "",
+      "position": "below",
+      "size": "medium"
+    },
+    "customCss": ""
+  },
+  "blogPage": "",
+  "pages": [
+    {
+      "id": "p_1ehusk86",
+      "file": "index.html",
+      "title": "Home",
+      "showInNavbar": true,
+      "sections": [
+        {
+          "id": "s_zcs6u81t",
+          "style": {
+            "bgColor": "",
+            "bgImage": "",
+            "overlayColor": "#000000",
+            "overlayOpacity": 0,
+            "tone": "dark",
+            "valign": "top"
+          },
+          "columns": [
+            {
+              "id": "c_aw4w9n17",
+              "width": 100,
+              "style": {
+                "bgColor": ""
+              },
+              "blocks": [
+                {
+                  "id": "b_10ve3bm1",
+                  "type": "text",
+                  "data": {
+                    "html": "<h2>Hello Word</h2><p>Welcome! This website is brand new — come back soon.</p>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "posts": [],
+  "header": {
+    "sections": [
+      {
+        "id": "s_2w07y73w",
+        "style": {
+          "bgColor": "",
+          "bgImage": "",
+          "overlayColor": "#000000",
+          "overlayOpacity": 0,
+          "tone": "dark",
+          "valign": "center"
+        },
+        "columns": [
+          {
+            "id": "c_1c6akuc6",
+            "width": 40,
+            "style": {
+              "bgColor": ""
+            },
+            "blocks": [
+              {
+                "id": "b_rni0mxjp",
+                "type": "site-title",
+                "data": {}
+              }
+            ]
+          },
+          {
+            "id": "c_zvkjhh1l",
+            "width": 60,
+            "style": {
+              "bgColor": ""
+            },
+            "blocks": [
+              {
+                "id": "b_70pjts18",
+                "type": "menu",
+                "data": {
+                  "align": "right"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "sections": [
+      {
+        "id": "s_1hty7md1",
+        "style": {
+          "bgColor": "",
+          "bgImage": "",
+          "overlayColor": "#000000",
+          "overlayOpacity": 0,
+          "tone": "dark",
+          "valign": "top"
+        },
+        "columns": [
+          {
+            "id": "c_q6m5eq1n",
+            "width": 100,
+            "style": {
+              "bgColor": ""
+            },
+            "blocks": [
+              {
+                "id": "b_up7bbkmm",
+                "type": "text",
+                "data": {
+                  "html": "<p>© 2026 Hello Word</p>"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
