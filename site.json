@@ -2,7 +2,7 @@
   "generator": "Pebble",
   "version": 5,
   "settings": {
-    "siteName": "Hello Word",
+    "siteName": "Hello World",
     "theme": {
       "primaryColor": "#b85c38",
       "secondaryColor": "#6b8b4f",
@@ -56,14 +56,14 @@
       "favicon": ""
     },
     "hero": {
-      "enabled": false,
-      "src": "",
-      "position": "below",
-      "size": "medium"
+      "enabled": true,
+      "src": "assets/images/20261110-190304-papa-thomas-sem-en-rebekka.png",
+      "position": "behind",
+      "size": "large"
     },
     "customCss": ""
   },
-  "blogPage": "",
+  "blogPage": "index.html",
   "pages": [
     {
       "id": "p_1ehusk86",
@@ -71,6 +71,43 @@
       "title": "Home",
       "showInNavbar": true,
       "sections": [
+        {
+          "id": "s_1p5tjglt",
+          "style": {
+            "bgColor": "",
+            "bgImage": "",
+            "overlayColor": "#000000",
+            "overlayOpacity": 0,
+            "tone": "dark",
+            "valign": "top"
+          },
+          "columns": [
+            {
+              "id": "c_th86wszt",
+              "width": 50,
+              "style": {
+                "bgColor": ""
+              },
+              "blocks": [
+                {
+                  "id": "b_tact917v",
+                  "type": "blog-feed",
+                  "data": {
+                    "limit": 6
+                  }
+                }
+              ]
+            },
+            {
+              "id": "c_l721xrbt",
+              "width": 50,
+              "style": {
+                "bgColor": ""
+              },
+              "blocks": []
+            }
+          ]
+        },
         {
           "id": "s_zcs6u81t",
           "style": {
@@ -99,11 +136,131 @@
               ]
             }
           ]
+        },
+        {
+          "id": "s_6jt4e61e",
+          "style": {
+            "bgColor": "",
+            "bgImage": "",
+            "overlayColor": "#000000",
+            "overlayOpacity": 0,
+            "tone": "dark",
+            "valign": "top"
+          },
+          "columns": [
+            {
+              "id": "c_14q1hdd9",
+              "width": 50,
+              "style": {
+                "bgColor": ""
+              },
+              "blocks": [
+                {
+                  "id": "b_awsfwu1a",
+                  "type": "text",
+                  "data": {
+                    "html": "Hello there"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "c_1ugm2dys",
+              "width": 50,
+              "style": {
+                "bgColor": ""
+              },
+              "blocks": [
+                {
+                  "id": "b_achvkv12",
+                  "type": "image",
+                  "data": {
+                    "src": "assets/images/20261110-190243-20140716-154021.jpg",
+                    "caption": "",
+                    "alt": "",
+                    "href": "",
+                    "radius": "",
+                    "ratio": "auto"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p_1iz94nry",
+      "file": "about-me.html",
+      "title": "About me",
+      "showInNavbar": true,
+      "sections": [
+        {
+          "id": "s_1vh5pzof",
+          "style": {
+            "bgColor": "",
+            "bgImage": "",
+            "overlayColor": "#000000",
+            "overlayOpacity": 0,
+            "tone": "dark",
+            "valign": "top"
+          },
+          "columns": [
+            {
+              "id": "c_a4vzw41k",
+              "width": 100,
+              "style": {
+                "bgColor": ""
+              },
+              "blocks": []
+            }
+          ]
         }
       ]
     }
   ],
-  "posts": [],
+  "posts": [
+    {
+      "id": "p_1f04xdwt",
+      "file": "blog/helloooooooooooo.html",
+      "title": "Helloooooooooooo",
+      "date": "2026-11-10",
+      "thumbnail": "",
+      "excerpt": "Helloooooooooo Marith!!",
+      "excerptAuto": true,
+      "sections": [
+        {
+          "id": "s_xtloy4wh",
+          "style": {
+            "bgColor": "",
+            "bgImage": "",
+            "overlayColor": "#000000",
+            "overlayOpacity": 0,
+            "tone": "dark",
+            "valign": "top"
+          },
+          "columns": [
+            {
+              "id": "c_dg3gup1a",
+              "width": 100,
+              "style": {
+                "bgColor": ""
+              },
+              "blocks": [
+                {
+                  "id": "b_94nxl01o",
+                  "type": "text",
+                  "data": {
+                    "html": "Helloooooooooo Marith!!"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "header": {
     "sections": [
       {
